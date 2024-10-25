@@ -59,6 +59,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: "Space Grotesk", sans-serif;
+    background-color: var(--bg-color);
 }
 body, html{
     height: 100%; 
@@ -82,6 +83,15 @@ button, input, label {
     width: 90%;
     max-width: 1120px;
     margin: 0 auto;
+    padding: 0 10.313rem;
+    position: relative;
+}
+.hero-background-wrapper {
+    background-image: url('/public/images/image-profile-desktop.webp');
+    background-position: top right;
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    padding-top: 20px;  */
 }
 a {
   text-decoration: none;

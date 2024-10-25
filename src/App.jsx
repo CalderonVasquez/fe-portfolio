@@ -7,44 +7,22 @@ import Footer from './components/Footer/Footer';
 
 function App() {
     return (
-        <div>
-            <Navigation />
-            <Hero />
-            <Experience />
-            <Works />
-            <Form />
+        <div className='container'>
+            <div className='hero-background-wrapper'>
+                <Navigation />
+                <Hero />
+            </div>
+            <main>
+                <Experience />
+                <Works />
+                <Form />
+            </main>
             <Footer />
         </div>
     );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // adamkeyes
