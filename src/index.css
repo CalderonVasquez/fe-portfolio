@@ -83,16 +83,15 @@ button, input, label {
     width: 90%;
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 10.313rem;
+    padding: 0 2rem;
     position: relative;
 }
-.hero-background-wrapper {
+/* .hero-background-wrapper {
     background-image: url('/public/images/image-profile-desktop.webp');
-    background-position: top right;
+    background-position: right;
     background-repeat: no-repeat;
-    /* background-size: cover;
-    padding-top: 20px;  */
-}
+    background-size: 445px 720px;
+} */
 a {
   text-decoration: none;
   color: inherit;
