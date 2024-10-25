@@ -8,19 +8,18 @@
    --heading-color: #ffffff;
     /* --------------------- fonst-size ------------------- */
    --xl-heading: 5.5rem;
-   --lrg-heading: 3rem 
-
+   --lrg-heading: 3rem; 
+   --md-heading: 1.5rem;
+   --sm-text: 1.125rem;
+    /* --------------------- fonst-weight ------------------- */
+    --bold: 700;
+    --medium: 500;
+    /* --------------------- line-height ------------------- */
+    --xl-line: 5.5rem;
+    --lrg-line: 3.5rem;
+    --md-line: 2rem;
+    --sm-line: 1.75rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ------------------------ CSS RESETS ------------------------- */
 *, *::before, *::after{
