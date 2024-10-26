@@ -10,12 +10,15 @@ function App() {
         <div className='container'>
             <div className='hero-background-wrapper'>
                 <Navigation />
+                <div className='graphic top-left'></div>
                 <Hero />
             </div>
             <main>
                 <Experience />
+                <div className='graphic middle-right'></div>
                 <Works />
                 <Form />
+                <div className='graphic bottom-left'></div>
             </main>
             <Footer />
         </div>

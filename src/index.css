@@ -79,19 +79,6 @@ h1, h2, h3, h4,
 button, input, label {
   line-height: 1.1;
 }
-.container {
-    width: 90%;
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    position: relative;
-}
-/* .hero-background-wrapper {
-    background-image: url('/public/images/image-profile-desktop.webp');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 445px 720px;
-} */
 a {
   text-decoration: none;
   color: inherit;
@@ -100,4 +87,31 @@ ul, ol, li {
     list-style: none;
 }
 /* ------------------------ END RESETS ------------------------- */
+
+.container {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+.graphic {
+  position: relative;
+  z-index: 0;
+}
+.top-left {
+  top: 0;
+  left: -190px;
+  width: 530px;
+  height: 133px;
+  background-image: url('/public/images/pattern-rings.svg');
+  background-repeat: no-repeat;
+
+}
+/* .hero-background-wrapper {
+    background-image: url('/public/images/image-profile-desktop.webp');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 445px 720px;
+} */
 

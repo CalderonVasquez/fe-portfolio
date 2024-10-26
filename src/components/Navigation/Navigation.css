@@ -7,6 +7,7 @@
     color: var(--heading-color);
     font-weight: var(--bold);
     margin-top: 2.438rem;
+    margin-bottom: 3.875rem;
 }
 .nav-links {
     display: flex;
