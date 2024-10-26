@@ -1,0 +1,53 @@
+.hero-section {
+   
+    height: 500px;
+}
+.hero-header {
+    width: 70%;
+    font-size: var(--xl-heading);
+    line-height: var(--xl-line);
+    font-weight: var(--bold);
+    letter-spacing: -2.5px;
+    text-align: left;
+    margin-top: -4.5rem;
+    margin-bottom: 2.688rem;
+    color: var(--heading-color);
+}
+.underline {
+    border-bottom: 4px solid #4ee1a0;
+}
+.hero-text p {
+    width: 40%;
+    font-size: var(--sm-text);
+    line-height: var(--sm-line);
+    text-align: left;
+    margin-bottom: 4.125rem;
+    color: var(--paragraph-color);
+}
+.btn-container {
+    display: flex;
+    gap: 10rem;
+}
+.hero-button {
+    border: none;
+    background-color: var(--bg-color);
+    color: var(--heading-color);
+    font-size: 1rem;
+    letter-spacing: 2.29px;
+    font-weight: var(--bold);
+    cursor: pointer;
+    display: block;
+    transition: color 0.3s ease;
+}
+.hero-button:hover {
+    color: #4ee1a0;
+}
+.btn-underline {
+    border-bottom: 2px solid #4ee1a0;
+    padding-bottom: .625rem;
+}
+.circle-graphic {
+    width: 129px;
+    height: 129px;
+    z-index: 5;
+}

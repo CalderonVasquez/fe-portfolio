@@ -90,9 +90,9 @@ ul, ol, li {
 
 .container {
   width: 90%;
-  max-width: 1120px;
+  max-width: 1110px;
   margin: 0 auto;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   position: relative;
 }
 .graphic {
@@ -101,18 +101,18 @@ ul, ol, li {
 }
 .top-left {
   top: 0;
-  left: -190px;
+  left: -250px;
   width: 530px;
   height: 133px;
   background-image: url('/public/images/pattern-rings.svg');
   background-repeat: no-repeat;
 }
-/* .hero-background-wrapper {
+.hero-background-wrapper {
     background-image: url('/public/images/image-profile-desktop.webp');
     background-position: right;
     background-repeat: no-repeat;
     background-size: 445px 720px;
-} */
+}
 
 
 /* ------------- Media Querries ------------------ */
