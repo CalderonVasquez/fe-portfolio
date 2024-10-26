@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
             <div className='btn-container'>
                 <button className='hero-button' type='button'><span className='btn-underline'>CONTACT ME</span></button>
-                <image src='/public/images/pattern-circle.svg' alt='circle graphic' className='circle-graphic'/>
+                <img src='/public/images/pattern-circle.svg' alt='circle graphic' className='circle-graphic'/>
             </div>
         </section>
     )
