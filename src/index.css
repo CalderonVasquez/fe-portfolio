@@ -106,7 +106,6 @@ ul, ol, li {
   height: 133px;
   background-image: url('/public/images/pattern-rings.svg');
   background-repeat: no-repeat;
-
 }
 /* .hero-background-wrapper {
     background-image: url('/public/images/image-profile-desktop.webp');
@@ -114,4 +113,13 @@ ul, ol, li {
     background-repeat: no-repeat;
     background-size: 445px 720px;
 } */
+
+
+/* ------------- Media Querries ------------------ */
+@media (max-width: 768px) {
+    .top-left {
+    left: -325px;
+  }
+}
+
 

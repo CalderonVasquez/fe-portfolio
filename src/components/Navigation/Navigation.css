@@ -14,5 +14,19 @@
     gap: 2rem;
     margin-top: 2.688rem;
     margin-right: 1.844rem;
+}
 
+
+
+/* ------------- Media Querries ------------------ */
+@media (max-width: 768px) {
+    .container {
+        padding: 0;
+    }
+    .name-logo {
+        margin-bottom: 1.563rem;
+    }
+    .nav-links {
+        margin-right: 0;
+    }
 }
