@@ -94,6 +94,7 @@ ul, ol, li {
   margin: 0 auto;
   /* padding: 0 2rem; */
   position: relative;
+  /* z-index: 1; */
 }
 .graphic {
   position: relative;
@@ -110,8 +111,11 @@ ul, ol, li {
 .hero-background-wrapper {
     background-image: url('/public/images/image-profile-desktop.webp');
     background-position: right;
+    position: absolute;
+    /* top: -75px; */
     background-repeat: no-repeat;
-    background-size: 445px 720px;
+    background-size: contain;
+    z-index: -1;
 }
 
 

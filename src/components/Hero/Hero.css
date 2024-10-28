@@ -1,6 +1,6 @@
 .hero-section {
    
-    height: 500px;
+    min-height: 530px;
 }
 .hero-header {
     width: 70%;
@@ -16,12 +16,13 @@
 .underline {
     border-bottom: 4px solid #4ee1a0;
 }
-.hero-text p {
+
+.hero-text  {
     width: 40%;
     font-size: var(--sm-text);
     line-height: var(--sm-line);
     text-align: left;
-    margin-bottom: 4.125rem;
+    margin-bottom: 2.125rem;
     color: var(--paragraph-color);
 }
 .btn-container {

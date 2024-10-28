@@ -13,14 +13,14 @@ function App() {
                 <div className='graphic top-left'></div>
                 <Hero />
             </div>
-            <main>
+            {/* <main>
                 <Experience />
                 <div className='graphic middle-right'></div>
                 <Works />
                 <Form />
                 <div className='graphic bottom-left'></div>
             </main>
-            <Footer />
+            <Footer /> */}
         </div>
     );
 }
