@@ -12,22 +12,22 @@ const Navigation = () => {
                 <div className='nav-links'>
                     <li>
                         <a href='#'>
-                            <img src="/public/images/icon-github.svg" alt='Github Icon'/>
+                            <img src="/images/icon-github.svg" alt='Github Icon'/>
                         </a>
                     </li>
                     <li>
                         <a href='#'>
-                            <img src="/public/images/icon-frontend-mentor.svg" alt='Frontend Mentor Icon' />
+                            <img src="/images/icon-frontend-mentor.svg" alt='Frontend Mentor Icon' />
                         </a>
                     </li>
                     <li>
                         <a href='#'>
-                            <img src="/public/images/icon-linkedin.svg" alt='Linkedin Icon' />
+                            <img src="/images/icon-linkedin.svg" alt='Linkedin Icon' />
                         </a>
                     </li>
                     <li>
                         <a href='#'>
-                            <img src="/public/images/icon-twitter.svg" alt='Twitter Icon' />
+                            <img src="/images/icon-twitter.svg" alt='Twitter Icon' />
                         </a>
                     </li>
                 </div>
