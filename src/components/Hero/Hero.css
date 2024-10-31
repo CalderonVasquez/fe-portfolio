@@ -1,8 +1,8 @@
 .hero-section {
-    min-height: 530px
+    min-height: 530px;
 }
 .hero-header {
-    /* width: 70%; */
+    width: 70%;
     font-size: var(--xl-heading);
     line-height: var(--xl-line);
     font-weight: var(--bold);
@@ -74,7 +74,7 @@
 }
 .hero-background-wrapper {
 background-image: url('/images/image-profile-tablet.webp');
-right: -5%;
+right: -7%;
 }
 .tablet-break {
 display: block;
@@ -82,8 +82,13 @@ display: block;
 }
 @media (max-width: 768px) {
         .hero-header {
-        width: 61%;
         line-height: 4.5rem;
+        margin-bottom: 3.75rem;
+        letter-spacing: -2.05px;
+    }
+    .hero-text {
+        width: 56%;
+        margin-bottom: 2.125rem;
     }
 .hero-background-wrapper {
     background-image: url('/images/image-profile-tablet.webp');

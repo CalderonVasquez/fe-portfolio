@@ -3,7 +3,9 @@
     justify-content: space-between;
 }
 .name-logo {
-    font-size: var(--md-heading);
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -0.44px;
     color: var(--heading-color);
     font-weight: var(--bold);
     margin-top: 2.438rem;
