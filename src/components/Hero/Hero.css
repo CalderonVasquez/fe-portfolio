@@ -89,7 +89,10 @@ background-image: url('/images/image-profile-tablet.webp');
 right: -7%;
 }
 .btn-container {
-    gap: 39rem;
+    
+}
+.hero-button {
+    
 }
 .tablet-break {
 display: block;
