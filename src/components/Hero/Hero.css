@@ -88,15 +88,10 @@
 background-image: url('/images/image-profile-tablet.webp');
 right: -7%;
 }
-.btn-container {
-    
-}
-.hero-button {
-    
-}
-.tablet-break {
-display: block;
-}
+
+    .tablet-break {
+    display: block;
+    }
 }
 @media (max-width: 768px) {
         .hero-header {
