@@ -13,7 +13,7 @@ function App() {
                 <div className='graphic top-left'></div>
                 <Hero />
             </div>
-            {/* <main>
+            {/* <main id="main">
                 <Experience />
                 <div className='graphic middle-right'></div>
                 <Works />
